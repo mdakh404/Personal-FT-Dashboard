@@ -1,0 +1,6 @@
+date, source, amount, category, frequency
+2025-01-10, Employment, 8000, Salary, Monthly
+2025-01-15, Employment, 500, Overtime, One-time
+2025-02-19, Freelance, 3000, Development, One-time
+2025-02-27, Freelance, 1500, Development, One-time
+2025-08-10, Investment, 10000, Stocks, Quarterly

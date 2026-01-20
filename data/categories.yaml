@@ -1,0 +1,117 @@
+# Last updated: 2026-01-18
+# Version: 1
+# NOTE: please edit the budget_percentage to match your expenses.
+
+income_categories:
+    Employment:
+        description: "Salary from a primary job."
+        subcategories: ["Salary", "Bonus", "Overtime", "Comission"]
+        color: "#2E86AB"
+        icon: "💼"
+        is_recurring: true
+
+    Freelance:
+        description: "Income from Freelance or Gig work."
+        subcategories: ["Writing & Translation", 
+                        "Development", 
+                        "Design", 
+                        "Consulting", 
+                        "Marketing",
+                        "Other"]
+        icon: "🧑🏻‍💻"
+        color: "#A23B72"
+        is_recurring: false
+
+    Investment:
+        description: "Income from Personal Investments."
+        subcategories: ["Stocks",
+                        "Real Estate",
+                        "Commodities",
+                        "Cryptocurrencies",
+                        "Other"]
+        icon: "📈"
+        color: "#5D9E82"
+        is_recurring: false                    
+
+
+expense_categories:
+    Food:
+        description: "Food purchases from supermarkets."
+        subcategories: ["Groceries", "Meat & Fish", "Snacks", "Eating out"]
+        icon: "🍽️"
+        color: "#98C1D9"
+        budget_percentage: 8
+
+    Rent:
+        description: "Renting property, office, or other spaces."
+        subcategories: ["Residential property", 
+                        "Commercial property",
+                        "Office space",
+                        "Other"]
+        icon: "🏠"
+        color: "#3D5A80"
+        budget_percentage: 24
+
+    Utilities:
+        description: "Essential utilities: Electricity, Gas, Water or Internet."
+        subcategories: ["Electricity", "Water", "Internet", "Gas"]
+        icon: "🔌"
+        color: "#3D4880"
+        budget_percentage: 10
+
+    Transportation:
+        description: "Transportation expenses: public transportation, private rides, 
+                      fuel, tolls, parking and vehicle repairs."
+        subcategories: ["Public Transportation",
+                        "Private Rides", 
+                        "Fuel", 
+                        "Tolls", 
+                        "Parking",
+                        "Vehicle repairs"]
+        icon: "🚗"
+        color: "#DE2E21"
+        budget_percentage: 20                                  
+
+    Taxes:
+        description: "Taxes on Income, Property or Sales."
+        subcategories: ["Income", "Property", "Sales"]
+        icon: "💸"
+        color: "#6B854A"
+        budget_percentage: 15
+
+    Insurance:
+        description: "Health, Property or Liability Insurance."
+        subcategories: ["Health", "Property", "Liability", "Other"]
+        icon: "❤️‍🩹"
+        color: "#856B63"
+        budget_percentage: 10
+
+    Sport:
+        description: "Gym & Sport Clubs' subscriptions."
+        subcategories: ["Gym", "Sport Clubs"]
+        icon: "🏋️"
+        color: "#47ED21"
+        budget_percentage: 10
+
+    Subscriptions:
+        description: "Entertainment, Technology and Gaming."
+        subcategories: ["Entertainment", "Technology", "Gaming", "Other"]
+        icon: "🍿"
+        color: "#6E7051"
+        budget_percentage: 10
+
+    Health:
+        description: "Health, Personal Care and Lifestyle."
+        subcategories: ["Health", "Personal Care", "Clothing", "Other"]
+        icon: "🛀"
+        color: "#F0B899"
+        budget_percentage: 10
+
+    Loans:
+        description: "Student, Vehicle, Mortgage and Business loans."
+        subcategories: ["Student", "Vehicle", "Mortgage", "Business"]
+        icon: "🏦",
+        color: "#4FA0AB"
+        budget_percentage: 10                   
+
+          
